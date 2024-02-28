@@ -1,0 +1,13 @@
+import { useState } from 'react'
+import BoxList from './BoxList'
+import NewBoxForm from './NewBoxForm'
+
+function App() {
+  return (
+    <div className='App'>
+      <BoxList /> 
+    </div>
+  );
+}
+
+export default App
